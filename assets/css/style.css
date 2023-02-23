@@ -9,5 +9,6 @@ body {
 }
 
 .header {
+    padding: 2rem 4rem;
     background-image: url(../images/header-mobile-background-0.5x.jpg);
 }
