@@ -23,12 +23,27 @@ body {
     background-repeat: no-repeat;
 }
 
-#uma-logo {
-    width: 15rem;
-}
-
 @media screen and (min-width: 900px) {
     .header {
         background-image: url("../images/header-background.jpg");
     }
 }
+
+#uma-logo {
+    width: 15rem;
+}
+
+#navigation-list {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+
+    list-style-type: none;
+}
+
+.navigation-list-items {
+    color: white;
+    text-decoration: none;
+}
+
