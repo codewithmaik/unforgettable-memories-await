@@ -28,10 +28,17 @@ body {
 }
 
 #uma-logo-container {
-    display:block;
+    display: block;
     width: 10rem;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media screen and (min-width: 62em) {
+    #uma-logo-container {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 #uma-logo {
@@ -54,3 +61,9 @@ body {
     font-weight: bold;
 }
 
+@media screen and (min-width: 62em) {
+    #navigation {
+        display: flex;
+        justify-content: space-between;
+    }
+}
