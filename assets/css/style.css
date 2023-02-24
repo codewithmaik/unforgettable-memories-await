@@ -47,6 +47,8 @@ body {
 }
 
 .navigation-list-items {
+    display: block;
+    padding: 1rem 1rem;
     color: white;
     text-decoration: none;
 }
