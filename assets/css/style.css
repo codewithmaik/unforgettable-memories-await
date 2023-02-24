@@ -29,7 +29,7 @@ body {
 
 #uma-logo-container {
     display:block;
-    width: 15rem;
+    width: 10rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -51,5 +51,6 @@ body {
     padding: 1rem 1rem;
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
