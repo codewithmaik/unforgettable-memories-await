@@ -10,13 +10,11 @@ html {
 
 body {
     margin: 0;
-    
     font-family: 'Montserrat', sans-serif;
 }
 
 .header {
     padding: 2rem 4rem;
-
     background-image: url("../images/header-mobile-background-0.5x.jpg");
     background-position: 50% 50%;
     background-size: cover;
@@ -29,16 +27,21 @@ body {
     }
 }
 
-#uma-logo {
+#uma-logo-container {
+    display:block;
     width: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#uma-logo {
+    width: 100%;
 }
 
 #navigation-list {
     margin: 0;
     padding: 0;
-
     display: flex;
-
     list-style-type: none;
 }
 
