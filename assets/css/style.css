@@ -64,13 +64,16 @@ body {
 #navigation-list {
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
+    text-align: center;
 }
 
 .navigation-list-items {
-    display: block;
+    display: inline-block;
+    list-style-type: none;
+}
+
+.navigation-list-anchor {
+    display: inline-block;
     padding: 1rem 1rem;
     color: white;
     text-decoration: none;
@@ -87,4 +90,19 @@ body {
         display: flex;
         justify-content: space-between;
     }
+}
+
+#header-button {
+    display: inline-block;
+    color: white;
+    background-color: transparent;
+    border: 0.125rem solid white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.75rem 2rem;
+    border-radius: 1000px;
+}
+
+#header-button:hover {
+    background-color: rgba(255, 255, 255, 0.25);
 }
