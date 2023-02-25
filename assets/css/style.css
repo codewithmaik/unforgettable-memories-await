@@ -92,7 +92,7 @@ body {
     }
 }
 
-#header-button {
+.header-button {
     display: inline-block;
     color: white;
     background-color: transparent;
@@ -103,13 +103,24 @@ body {
     border-radius: 1000px;
 }
 
-#header-button:hover {
+.header-button:hover {
     background-color: rgba(255, 255, 255, 0.25);
 }
 
 @media screen and (max-width: 62em) {
-    #header-button {
+    li .header-button {
         display: none;
     }
     
+}
+
+.headings {
+    margin: 0;
+    color: white;
+}
+
+@media screen and (min-width: 62em) {
+    #header-button-mobile {
+        display: none;
+    }
 }
