@@ -134,6 +134,12 @@ body {
     }
 }
 
+@media screen and (min-width: 62em) {
+    #header-heading {
+        padding-top: 5rem;
+    }
+}
+
 #header-subheading {
     padding-top: 0.5rem;
     padding-bottom: 2rem;
