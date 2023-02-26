@@ -15,7 +15,7 @@ body {
 
 .header {
     background-image: url("../images/header-mobile-background-0.5x.jpg");
-    background-position: 50% 50%;
+    background-position: 50% 75%;
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 2rem;
