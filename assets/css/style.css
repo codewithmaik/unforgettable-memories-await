@@ -119,8 +119,18 @@ body {
     color: white;
 }
 
+#header-subheading {
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
 @media screen and (min-width: 62em) {
     #header-button-mobile {
         display: none;
     }
+}
+
+.container-center {
+    display: grid;
+    justify-content: center;
 }
