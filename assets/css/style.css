@@ -30,11 +30,17 @@ body {
 .header::after {
     content: "";
     display: block;
-    width: 12.5rem;
+    width: 7.5rem;
     height: 0.25rem;
     background-color: #ed6a4e;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media screen and (min-width: 62em) {
+    .header::after {
+        width: 12.5rem;
+    }
 }
 
 #uma-logo-container {
@@ -171,4 +177,5 @@ body {
 .container-center {
     display: grid;
     justify-content: center;
+    padding-bottom: 1.5rem;
 }
