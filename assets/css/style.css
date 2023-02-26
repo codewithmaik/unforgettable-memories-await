@@ -18,12 +18,23 @@ body {
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
+    padding-bottom: 2rem;
 }
 
 @media screen and (min-width: 900px) {
     .header {
         background-image: url("../images/header-background.jpg");
     }
+}
+
+.header::after {
+    content: "";
+    display: block;
+    width: 12.5rem;
+    height: 0.25rem;
+    background-color: #ed6a4e;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #uma-logo-container {
@@ -147,7 +158,7 @@ body {
 
 @media screen and (min-width: 62em) {
     #header-subheading {
-        padding-bottom: 5rem;
+        padding-bottom: 7.5rem;
     }
 }
 
