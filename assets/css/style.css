@@ -146,6 +146,12 @@ body {
 }
 
 @media screen and (min-width: 62em) {
+    #header-subheading {
+        padding-bottom: 5rem;
+    }
+}
+
+@media screen and (min-width: 62em) {
     #header-button-mobile {
         display: none;
     }
