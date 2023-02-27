@@ -180,17 +180,42 @@ body {
 }
 
 .container-center {
-    display: grid;
+    display: flex;
     justify-content: center;
     padding-bottom: 1.5rem;
 }
 
 /* Adventures Section */
-
 .adventures {
+    /* set background color if background image doesn't load */
     background-color: rgb(225, 220, 206);
     background-image: url(../images/adventures-background.jpg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
+}
+
+/* set max-width of the content for large screens */
+.adventures-container {
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.adventures-heading {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 2.5rem;
+    color: #014153;
+}
+
+.pre-text {
+    display: block;
+    font-size: 1.5rem;
 }
