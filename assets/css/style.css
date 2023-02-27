@@ -95,6 +95,7 @@ body {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    text-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
 }
 
 #navigation {
@@ -134,6 +135,7 @@ body {
 .headings {
     margin: 0;
     color: white;
+    text-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
 }
 
 #header-heading {
