@@ -245,4 +245,14 @@ body {
 
 .adventure-card-image {
     width: 100%;
+    display: block;
+}
+
+.adventures-card-heading {
+    margin: 0;
+    padding-top: 1.25rem;
+    font-size: 1.25rem;
+    color: #014153;
+    text-align: center;
+    text-transform: uppercase;
 }
