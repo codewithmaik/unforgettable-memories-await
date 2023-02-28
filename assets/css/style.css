@@ -230,8 +230,11 @@ body {
     flex-wrap: wrap;
 
     /* allows cards to be on a line with header content */
-    margin-left: -1rem;
+    margin-top: -1rem;
     margin-right: -1rem;
+    margin-bottom: -1rem;
+    margin-left: -1rem;
+    
 }
 
 .adventure-card {
