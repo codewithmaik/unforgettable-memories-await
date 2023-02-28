@@ -237,10 +237,12 @@ body {
 .adventure-card {
     flex: 0 0 22.3rem;
     margin: 1rem;
+    padding-bottom: 1rem;
     border-radius: 2rem;
     background-color: white;
     overflow: hidden;
     text-align: center;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
 }
 
 .adventure-card-image {
@@ -260,6 +262,7 @@ body {
 
 .adventure-card-date {
     margin: 0;
+    padding-bottom: 1rem;
     font-size: 1rem;
     color: #014153;
     text-align: center;
