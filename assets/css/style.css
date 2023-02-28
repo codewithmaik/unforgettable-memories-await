@@ -236,11 +236,11 @@ body {
 
 .adventure-card {
     flex: 0 0 22.3rem;
-    height: 40rem;
     margin: 1rem;
     border-radius: 2rem;
     background-color: white;
     overflow: hidden;
+    text-align: center;
 }
 
 .adventure-card-image {
@@ -251,8 +251,33 @@ body {
 .adventures-card-heading {
     margin: 0;
     padding-top: 1.25rem;
-    font-size: 1.25rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
     color: #014153;
     text-align: center;
     text-transform: uppercase;
+}
+
+.adventure-card-date {
+    margin: 0;
+    font-size: 1rem;
+    color: #014153;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.adventure-card-date > span {
+    color: #ed6a4e
+}
+
+.adventure-button {
+    display: inline-block;
+    color: white;
+    background-color: #ed6a4e;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.75rem 2rem;
+    border-radius: 1000px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(1rem);
 }
