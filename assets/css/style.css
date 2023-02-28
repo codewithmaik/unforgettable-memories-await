@@ -187,6 +187,7 @@ body {
 
 /* Adventures Section */
 .adventures {
+    padding-bottom: 4rem;
     /* set background color if background image doesn't load */
     background-color: rgb(225, 220, 206);
     background-image: url(../images/adventures-background.jpg);
@@ -240,7 +241,7 @@ body {
 .adventure-card {
     flex: 0 0 22.3rem;
     margin: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
     border-radius: 2rem;
     background-color: white;
     overflow: hidden;
