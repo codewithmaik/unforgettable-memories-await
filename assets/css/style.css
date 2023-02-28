@@ -240,4 +240,9 @@ body {
     margin: 1rem;
     border-radius: 2rem;
     background-color: white;
+    overflow: hidden;
+}
+
+.adventure-card-image {
+    width: 100%;
 }
