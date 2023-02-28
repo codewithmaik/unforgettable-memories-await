@@ -204,6 +204,7 @@ body {
     padding-right: 1rem;
 }
 
+/* Adventure Heading*/
 .adventures-heading {
     margin-top: 0;
     margin-bottom: 0;
@@ -218,4 +219,24 @@ body {
 .pre-text {
     display: block;
     font-size: 1.5rem;
+}
+
+/* Adventure Cards */
+
+#adventure-cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    /* allows cards to be on a line with header content */
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.adventure-card {
+    flex: 0 0 22.3rem;
+    height: 40rem;
+    margin: 1rem;
+    background-color: white;
 }
