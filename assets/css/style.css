@@ -247,6 +247,12 @@ body {
     overflow: hidden;
     text-align: center;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+
+    transition: transform 0.25s ease-in-out;
+}
+
+.adventure-card:hover {
+    transform: scale(1.05);
 }
 
 .adventure-card-image {
