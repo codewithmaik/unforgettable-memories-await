@@ -341,6 +341,7 @@ body {
     letter-spacing: 0.1em;
     font-size: 2.25rem;
     color: white;
+    text-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
 }
 
 .header-topper::before {
@@ -364,6 +365,7 @@ body {
     color: white;
     font-size: 1rem;
     line-height: 1.4em;
+    text-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
 }
 
 .story-button {
@@ -379,4 +381,23 @@ body {
 
 .story-button:hover {
     text-decoration: underline;
+}
+
+/* Parts Section*/
+.parts-container {
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.parts-heading {
+    margin: 0;
+    padding-top: 1.25rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #014153;
+    text-align: center;
+    text-transform: uppercase;
 }
