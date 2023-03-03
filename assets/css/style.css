@@ -384,6 +384,11 @@ body {
 }
 
 /* Parts Section*/
+
+.parts {
+    padding-bottom: 1.5rem;
+}
+
 .parts-container {
     max-width: 75rem;
     margin-left: auto;
