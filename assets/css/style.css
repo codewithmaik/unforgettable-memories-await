@@ -311,6 +311,7 @@ body {
 @media screen and (min-width: 62em) {
     .story {
         background-image: url(../images/story-background.jpg);
+        background-attachment: fixed;
     }
 }
 
