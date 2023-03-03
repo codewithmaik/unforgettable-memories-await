@@ -342,9 +342,15 @@ body {
     content: "";
     display: block;
     margin-bottom: 2rem;
-    width: 5rem;
-    height: 0.125rem;
+    width: 7.5rem;
+    height: 0.25rem;
     background-color: #ed6a4e;
+}
+
+@media screen and (min-width: 62em) {
+    .header-topper::before {
+        width: 10rem;
+    }
 }
 
 .story-paragraph {
