@@ -100,6 +100,10 @@ body {
     text-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
 }
 
+.navigation-list-anchor:hover {
+    text-decoration: underline;
+}
+
 #navigation {
     padding-top: 2rem;
     padding-bottom: 0.5rem;
