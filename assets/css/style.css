@@ -401,3 +401,12 @@ body {
     text-align: center;
     text-transform: uppercase;
 }
+
+.parts-paragraph {
+    margin: 0;
+    padding-bottom: 1.5rem;
+    color: #014153;
+    font-size: 1rem;
+    line-height: 1.4em;
+    text-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
+}
