@@ -397,16 +397,6 @@ body {
     padding-right: 1rem;
 }
 
-.parts-heading {
-    margin: 0;
-    padding-top: 1.25rem;
-    padding-bottom: 1rem;
-    font-size: 1.5rem;
-    color: #014153;
-    text-align: center;
-    text-transform: uppercase;
-}
-
 .parts-paragraph {
     margin: 0;
     margin-left: auto;
